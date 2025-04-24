@@ -1,0 +1,106 @@
+.main-div {
+    width: 60%;
+    margin: 20px auto;
+}
+
+.main-div #query {
+    display: block;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    width: 80%;
+    height: 2rem;
+    border-radius: 20px;
+    margin: 25px auto 0px;
+}
+
+#answer {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    display: block;
+    width: 90%;
+    margin: 0px auto 0px;
+}
+
+
+.footer {
+    height: 50px;
+    width: 70%;
+    margin: auto;
+}
+
+
+#ext {
+    border: 2px dashed black;
+    text-align: center;
+    padding: 3px;
+}
+
+
+ol {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    row-gap: 10px;
+    justify-content: center;
+    list-style-type: decimal;
+    list-style-position: outside;
+}
+
+ol li {
+    width: 120px;
+    margin: 10px 20px;
+}
+
+ol a {
+    text-decoration-line: none;
+    text-decoration-style: none;
+}
+
+ol a:link {
+    color: green;
+}
+
+ol a:visited {
+    color: burlywood;
+}
+
+ol a:hover {
+    color: rgb(13, 162, 221);
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-decoration-thickness: 1px;
+}
+
+ol a:active {
+    color: yellow;
+}
+
+@media (max-width:768px) {
+
+    .main-div {
+        width: 100%;
+    }
+
+    .main-div #query {
+        width: 95%;
+        font-size: small;
+    }
+
+    #answer {
+        width: 100%;
+        font-size: small;
+    }
+
+    .footer {
+        width: 100%;
+    }
+
+    ol {
+        justify-content: space-evenly;
+    }
+
+    ol li {
+        list-style-type: disc;
+        width: 100px;
+    }
+}
